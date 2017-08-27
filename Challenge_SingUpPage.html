@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Challenge_SignUpPage</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles/Challenge_SignUpPage.css">
+</head>
+<body>
+<div>	
+	<img class=image src="images/analogsealogo.png"/>
+	<!--<img class="logo" src="analogsealogo.png" alt="AnalogSea" />
+	-->
+
+	 <form role="form" action="/signup" accept-charset="UTF-8" method="post" class="signup-form">
+	 	<fieldset>
+	 	   <legend>Sign up</legend>
+	 	   <label for="user-email">Email</label>
+	 	   <input type="Email" placeholder="something@mail.com" name="user-email" id="user-email" required/>
+	 	   <label for="user-password">Password</label>
+	 	   <input type="password" placeholder="something" name="user-password" id="user-password" required/>
+	 	   <button type="submit">Sign Up</button>
+	 	</fieldset>
+	 	<a class ="forgot" href="#">Forgot Password?</a>
+	 </form>
+
+	 <footer role="contentinfo" class="footer">
+	 	<p>Already have an account?<a href="/login">Log In</a>
+	 	</p>
+	 </footer>
+</div>	
+</body>
+</html>
